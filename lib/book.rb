@@ -9,7 +9,7 @@ class Book
   end
 
   attr_accessor :author
-  
+
   def page_count(num)
     return num
   end
