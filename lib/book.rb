@@ -8,10 +8,8 @@ class Book
     return @temp
   end
 
-  def author(author)
-    return author
-  end
-
+  attr_accessor :author
+  
   def page_count(num)
     return num
   end
